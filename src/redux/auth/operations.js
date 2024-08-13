@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 const baseURL = "https://connections-api.goit.global/"
-const instanceAxios = axios.create({baseURL})
+export const instanceAxios = axios.create({baseURL})
 
 // react103777@mail.com
 // react103777@mail.com
